@@ -1,0 +1,206 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* -------------------Title---------------------------- */
+
+
+#nav-logo{
+    width: 6em;
+    height: 6em;
+}
+
+.navbar{
+    background-color: transparent;
+}
+
+
+h1.title{
+    font-size: 3em;
+    position: absolute;
+    justify-self: flex-end;
+    width: 40vw;
+    padding-top: 200px;
+    padding-right: 3em;
+    z-index: -2;
+}
+
+div.intro{
+    position: relative;
+    height: 101vh;
+    width: 100vw;
+    display: grid;
+}
+
+div.background{
+    background-position:bottom;
+    background-size: cover;
+    position: absolute;
+    width: 100vw;
+    height: 101vh;
+}
+
+/* ---------------About Me---------------------------- */
+.about{
+    background-color: aliceblue;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+h2.title{
+    text-align: center;
+    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+    font-size: 3em;
+}
+
+.left-about, .right-about{
+    width:100%;
+    padding: 5%;
+}
+
+.right-about{
+    background-color: #F29F59;
+}
+
+.left-about{
+    background-color: white;
+    display: block;
+    opacity: 0;
+}
+
+#aboutme{
+    text-align: center;
+}
+
+.section {
+    height: 101vh;
+    position: relative;
+    width: 100vw;
+  }
+
+/* ------------------------PORTFOLIO--------------------- */
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 101vh;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+h1.portfolio{
+    font-size: 3em;
+}
+
+div.portfolio-right{
+    display: flex;
+    background-color: #fc9c5c;
+    margin: 20px;
+    margin-right: -100px;
+    padding-right: 120px;
+}
+
+div.portfolio-left{
+    display: flex;
+    background-color: #fc9c5c;
+    margin: 20px;
+    margin-left: -100px;
+    padding-left: 120px;
+}
+
+div.project-image{
+    padding: 10px;
+}
+
+div.project-info{
+    padding: 10px;
+}
+
+h2.project-title{
+    font-size: 2em;
+}
+
+div.test{
+    background-color: red;
+    width: 80vw;
+    height: 20vh;
+    position: absolute;
+    bottom: -100px;
+    z-index: 3;
+}
+
+/* -----------------Recommendations--------------------- */
+#recommendations{
+    background-color: green;
+}
+
+h1.recommendations{
+    font-size: 3em;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.slick-slide > div {
+    margin: 0 10px;
+    -webkit-transform: scale(0.75);
+    -moz-transform: scale(0.75);
+    transform: scale(0.75);
+}
+
+.slick-center {
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    transform: scale(1.25);
+}
+
+/* ----------------Contact Me--------------------------- */
+h1.contact{
+    font-size: 3em;
+    text-align: center;
+}
+
+p.contact{
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 400;
+}
+
+.field-label {
+    flex-grow:0.5;
+    margin-right: 0;
+    margin-left: 2em;
+}
+
+.field-body{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+footer{
+    bottom: 0;
+    position: absolute;
+    width: 100vw;
+}
+
+#contact{
+    padding:0px;
+    background-color: #fc9c5c;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.contact-form{
+    background-color: white;
+    box-shadow:  0 10px 10px 10px rgba(0, 0, 0, 0.2), 0 10px 10px 10px rgba(0, 0, 0, 0.19);
+    border-radius: 1em;
+    width: 90vw;
+    margin:auto;
+    padding-top:1em;
+    height: 80vh;
+}
+
+.textarea{
+    height: 10em;
+}
