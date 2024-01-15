@@ -62,6 +62,11 @@ h2.title{
 
 .right-about{
     background-color: #F29F59;
+    text-align: center;
+}
+
+img.right-about{
+    width:500px;
 }
 
 .left-about{
@@ -85,10 +90,10 @@ h2.title{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 101vh;
+    /* height: 101vh; */
     padding-top: 0;
     padding-bottom: 0;
-    min-height: fit-content;
+    height: fit-content;
 }
 
 h1.portfolio{
@@ -97,11 +102,12 @@ h1.portfolio{
 
 div.portfolio-right{
     display: flex;
-    background-color: #fc9c5c;
+    background-color: #FC9C5C;
     margin: 20px;
     margin-right: -100px;
     padding-right: 120px;
     width: 100vw;
+    height: fit-content;
 }
 
 div.portfolio-left{
@@ -114,11 +120,14 @@ div.portfolio-left{
 }
 
 div.project-image{
-    padding: 10px;
+    width:25%;
 }
 
 div.project-info{
     padding: 10px;
+    width:75%;
+    /* float: inline-end; */
+    /* display: inline-block; */
 }
 
 h2.project-title{
@@ -135,9 +144,11 @@ div.test{
 }
 
 .image{
-    width:25em;
-    /* height:15em; */
+    /* display: inline-block; */
+    height:100%; 
+    
 }
+
 
 /* -----------------Recommendations--------------------- */
 #recommendations{
@@ -188,8 +199,10 @@ p.contact{
 
 footer{
     bottom: 0;
-    position: absolute;
+    position: sticky;
     width: 100vw;
+    z-index: 10;
+    height: 10%;
 }
 
 #contact{
@@ -202,7 +215,7 @@ footer{
 .contact-form{
     background-color: white;
     box-shadow:  0 10px 10px 10px rgba(0, 0, 0, 0.2), 0 10px 10px 10px rgba(0, 0, 0, 0.19);
-    border-radius: 1em;
+    border-radius: 2em 3em 0 0;
     width: 90vw;
     margin:auto;
     padding-top:1em;
@@ -211,4 +224,8 @@ footer{
 
 .textarea{
     height: 10em;
+}
+
+.fa-brands{
+    padding:5px;
 }
