@@ -111,6 +111,7 @@ div.portfolio-right{
     padding-right: 120px;
     width: 100vw;
     height: fit-content;
+    overflow-x: hidden;
 }
 
 div.portfolio-left{
