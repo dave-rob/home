@@ -98,6 +98,7 @@ img.right-about{
     padding-bottom: 0;
     padding-right:0;
     height: fit-content;
+    background-color: antiquewhite;
 }
 
 h1.portfolio{
@@ -111,7 +112,7 @@ div.portfolio-right{
     margin-right: 0px;
     /* margin-left: 100px; */
     padding-right: 120px;
-    width: 90vw;
+    width: 100vw;
     height: fit-content;
     overflow-x: hidden;
 }
@@ -158,7 +159,8 @@ div.test{
 
 /* -----------------Recommendations--------------------- */
 #recommendations{
-    background-color: green;
+    background-color: antiquewhite;
+    height: fit-content;
 }
 
 h1.recommendations{
