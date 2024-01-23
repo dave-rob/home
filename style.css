@@ -103,6 +103,8 @@ img.right-about{
 
 h1.portfolio{
     font-size: 3em;
+    padding-bottom: 0.5em;
+    padding-top:0.5em;
 }
 
 div.portfolio-right{
@@ -166,7 +168,7 @@ div.test{
 h1.recommendations{
     font-size: 3em;
     text-align: center;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 .slick-slide > div {
