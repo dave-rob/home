@@ -31,7 +31,6 @@ export default function Title(){
     size = '3em';
     }
    
-
     return (
         <div className="intro">
             <motion.h1 className="title"style={{y: textY, fontSize: size}}>Full-Stack Developer & Fitness Enthusiast</motion.h1>
